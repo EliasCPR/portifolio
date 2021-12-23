@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-  --red:#002df5;
-  --blue:#002df5;
+  --red:#28aa17;
+  --green:#22a510;
 }
 
 *{
@@ -16,7 +16,7 @@
 }
 
 *::selection{
-  background:var(--blue);
+  background:var(--green);
   color:#fff;
 }
 
@@ -43,7 +43,7 @@ section{
 }
 
 .heading span{
-  color:var(--blue);
+  color:var(--green);
 }
 
 .btn{
@@ -110,18 +110,9 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-  color:var(--blue);
+  color:var(--green);
 }
 
-#menu-bar{
-  font-size: 3rem;
-  cursor: pointer;
-  color:#666;
-  border:.1rem solid #666;
-  border-radius: .3rem;
-  padding:.5rem 1.5rem;
-  display: none;
-}
 
 .home{
   display: flex;
